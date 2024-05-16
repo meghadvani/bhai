@@ -1,0 +1,16 @@
+.offcanvas{
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+  
+}
+.card .bb{
+  transition: all 0.3s ease-out;
+}
+.card .bb:hover{
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  color: black;
+}
+nav{
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
+}
